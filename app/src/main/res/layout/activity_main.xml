@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:fillViewport="true">
+
+     <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:stretchColumns="1">
+
+
+
+         <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nadirah._.Pinney"
+        android:textSize="32dp"
+         />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/droid"
+        />
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+
+                 <TextView
+                     android:id="@+id/likes_text_view"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:paddingRight="20dp"
+                     android:text="Likes: "
+                     android:textSize="22dp"/>
+
+             <Button
+                 android:layout_width="100dp"
+                 android:layout_height="40dp"
+                 android:OnClick="Increase"
+                 android:text=" niceee"
+                 />
+
+             <Button
+                 android:layout_width="100dp"
+                 android:layout_height="40dp"
+                 android:OnClick=" Decrease"
+                 android:text=" umm no"
+
+                 />
+             </LinearLayout>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:text="Nadirah._.Pinney: Best coder out here ya digg ;)"
+        />
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:text="coach_wolf: ooooo your a really good coder, teach me your ways!"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="8dp"
+        android:paddingTop="8dp"
+        android:text="Masaia: @coach_wolf she is one of the the best huh"/>
+</LinearLayout>
+
+
+
+     </TableLayout>
+</ScrollView>
